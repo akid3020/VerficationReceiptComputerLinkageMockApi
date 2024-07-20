@@ -1,0 +1,146 @@
+{
+    "MSA50051": {
+        "execLogin": {
+            "MessageHeader": {
+                "ProcessExecutionTime": "20240401000000",
+                "MedicalInstitutionCode": "1211234567",
+                "VendorCode": "abc12345",
+                "LoginId": "WA000001",
+                "ArbitraryIdentifier": "全半角混合最大 50 文字",
+                "SegmentOfResult": "1"
+            },
+            "MessageBody": {
+                "AuthenticationSession": "zxcvbnm098!"
+            }
+        },
+        "authMFA": {
+            "MessageHeader": {
+                "ProcessExecutionTime": "20240401000000",
+                "MedicalInstitutionCode": "1211234567",
+                "VendorCode": "abc12345",
+                "LoginId": "WA000001",
+                "ArbitraryIdentifier": "全半角混合最大 50 文字",
+                "SegmentOfResult": "1"
+            },
+            "MessageBody": {
+                "IdToken": "123abc?",
+                "AccessToken": "456def?",
+                "RefreshToken": "789ghi?",
+                "ExpiresIn": 1711900800
+            }
+        },
+        "refreshToken": {
+            "MessageHeader": {
+                "ProcessExecutionTime": "20240401000000",
+                "MedicalInstitutionCode": "1211234567",
+                "VendorCode": "abc12345",
+                "LoginId": "WA000001",
+                "ArbitraryIdentifier": "全半角混合最大 50 文字",
+                "SegmentOfResult": "1"
+            },
+            "MessageBody": {
+                "IdToken": "123abc?",
+                "AccessToken": "456def?",
+                "ExpiresIn": 1711900800
+            }
+        },
+        "execLogout": {
+            "MessageHeader": {
+                "ProcessExecutionTime": "20240401000000",
+                "MedicalInstitutionCode": "1211234567",
+                "VendorCode": "abc12345",
+                "LoginId": "WA000001",
+                "ArbitraryIdentifier": "全半角混合最大 50 文字",
+                "SegmentOfResult": "1"
+            }
+        }
+    },
+    "MSA50053": {
+        "count": {
+            "MessageHeader": {
+                "ProcessExecutionTime": "20240401000000",
+                "MedicalInstitutionCode": "1211234567",
+                "VendorCode": "abc12345",
+                "LoginId": "WA000001",
+                "ArbitraryIdentifier": "全半角混合最大 50 文字",
+                "SegmentOfResult": "1"
+            },
+            "MessageBody": {
+                "InquiryRequestInfo": {
+                    "SearchStartDateTime": "202403010000",
+                    "SearchEndDateTime": "202403312359",
+                    "SearchQualificationConfirmationLoginId": "W0000002",
+                    "ReferenceNumber": "照会番号:全半角混合最大 50 文字"
+                },
+                "ProcessingResultStatus": "1",
+                "InquiryResultInfo": {
+                    "HistoryDataCount": "10000"
+                }
+            }
+        },
+        "search": {
+            "MessageHeader": {
+                "ProcessExecutionTime": "20240401000000",
+                "MedicalInstitutionCode": "1211234567",
+                "VendorCode": "abc12345",
+                "LoginId": "WA000001",
+                "ArbitraryIdentifier": "全半角混合最大 50 文字",
+                "SegmentOfResult": "1"
+            },
+            "MessageBody": {
+                "InquiryRequestInfo": {
+                    "SearchStartDateTime": "202403010000",
+                    "SearchEndDateTime": "202403312359",
+                    "SearchQualificationConfirmationLoginId": "W0000002",
+                    "ReferenceNumber": "照会番号:全半角混合最大 50 文字",
+                    "PageIndex": "1",
+                    "PageCount": "1000"
+                },
+                "ProcessingResultStatus": "1",
+                "InquiryResultInfo": {
+                    "ResultList": {
+                        "ProcessExecutionTime": "20240401000000",
+                        "QualificationConfirmationLoginId": "W0000002",
+                        "QualificationConfirmationDate": "20240401",
+                        "QualificationValidity": "1",
+                        "ResultOfQualificationConfirmation": {
+                            "InsuredCardClassification": "01",
+                            "InsurerNumber": "12345678",
+                            "InsuredCardSymbol": "被保険者証記号０１",
+                            "InsuredIdentificationNumber": "被保険者証番号０１",
+                            "InsuredBranchNumber": "01",
+                            "PersonalFamilyClassification": "1",
+                            "InsuredName": "被保険者 氏名",
+                            "Name": "被保険者 氏名",
+                            "NameKana": "ヒホケンシャ シメイ",
+                            "Sex1": "1",
+                            "Birthdate": "19861001",
+                            "Address": "東京都○□区○○１－２－３",
+                            "PostNumber": "123-0101",
+                            "QualificationDate": "20200210",
+                            "InsuredCertificateIssuanceDate": "20200210",
+                            "InsuredCardValidDate": "20200210",
+                            "InsurerName": "○□△保険組合",
+                            "LimitApplicationCertificateRelatedConsTime": "20240401",
+                            "LimitApplicationCertificateRelatedInfo": {
+                                "LimitApplicationCertificateClassification": "01",
+                                "LimitApplicationCertificateClassificationFlag": "A01",
+                                "LimitApplicationCertificateDate": "20200210",
+                                "LimitApplicationCertificateValidStartDate": "20200210"
+                            },
+                            "SpecificDiseasesCertificateList": {
+                                "SpecificDiseasesCertificateInfo": {
+                                    "SpecificDiseasesDiseaseCategory": "1",
+                                    "SpecificDiseasesCertificateDate": "20231025",
+                                    "SpecificDiseasesValidStartDate": "20231025",
+                                    "SpecificDiseasesSelfPay": "10000"
+                                }
+                            }
+                        },
+                        "PublicExpenseFlg": "0"
+                    }
+                }
+            }
+        }
+    }
+}
