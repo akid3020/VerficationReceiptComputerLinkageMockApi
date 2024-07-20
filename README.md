@@ -1,0 +1,2 @@
+# VerficationReceiptComputerLinkageMockApi
+資格確認限定型レセコン連携機能モックAPILimited eligibility verification type receiver linkage function
