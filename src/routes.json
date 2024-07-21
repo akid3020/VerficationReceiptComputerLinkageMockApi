@@ -1,4 +1,4 @@
 {
-    "/skg-api-stg/*": "/$1",
-    "/skg-api-pro/*": "/$1"
+    "/skg-api-stg/*/*": "/$1/$2",
+    "/skg-api-pro/*/*": "/$1/$2"
 }

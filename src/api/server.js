@@ -15,8 +15,8 @@ const middlewares = jsonServer.defaults();
 server.use(middlewares);
 server.use(
     jsonServer.rewriter({
-        "/api/skg-api-stg/*": "/$1",
-        "/api/skg-api-pro/*": "/$1",
+        "/api/skg-api-stg/*/*": "/$1_$2",
+        "/api/skg-api-pro/*/*": "/$1_$2",
     })
 );
 server.use(router);
