@@ -1,11 +1,11 @@
 {
   "builds": [
     {
-      "src": "src/server.js",
+      "src": "server.js",
       "use": "@vercel/node",
       "config": {
         "includeFiles": [
-          "src/db.json"
+          "db.json"
         ]
       }
     }
@@ -13,7 +13,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "src/server.js"
+      "destination": "server.js"
     }
   ]
 }
