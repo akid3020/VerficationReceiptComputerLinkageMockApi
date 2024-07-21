@@ -19,6 +19,12 @@ server.use(
         "/skg-api-pro/*/*": "/$1_$2",
     })
 );
+server.use(function (req, res, next) {
+    if (req.method === 'POST') {
+        req.method = 'GET';
+    }
+    next();
+})
 server.use(router);
 server.listen(3000, () => {
     console.log("listening on port: 3000");
