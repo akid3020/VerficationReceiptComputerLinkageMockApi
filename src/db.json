@@ -95,47 +95,49 @@
             },
             "ProcessingResultStatus": "1",
             "InquiryResultInfo": {
-                "ResultList": {
-                    "ProcessExecutionTime": "20240401000000",
-                    "QualificationConfirmationLoginId": "W0000002",
-                    "QualificationConfirmationDate": "20240401",
-                    "QualificationValidity": "1",
-                    "ResultOfQualificationConfirmation": {
-                        "InsuredCardClassification": "01",
-                        "InsurerNumber": "12345678",
-                        "InsuredCardSymbol": "被保険者証記号０１",
-                        "InsuredIdentificationNumber": "被保険者証番号０１",
-                        "InsuredBranchNumber": "01",
-                        "PersonalFamilyClassification": "1",
-                        "InsuredName": "被保険者 氏名",
-                        "Name": "被保険者 氏名",
-                        "NameKana": "ヒホケンシャ シメイ",
-                        "Sex1": "1",
-                        "Birthdate": "19861001",
-                        "Address": "東京都○□区○○１－２－３",
-                        "PostNumber": "123-0101",
-                        "QualificationDate": "20200210",
-                        "InsuredCertificateIssuanceDate": "20200210",
-                        "InsuredCardValidDate": "20200210",
-                        "InsurerName": "○□△保険組合",
-                        "LimitApplicationCertificateRelatedConsTime": "20240401",
-                        "LimitApplicationCertificateRelatedInfo": {
-                            "LimitApplicationCertificateClassification": "01",
-                            "LimitApplicationCertificateClassificationFlag": "A01",
-                            "LimitApplicationCertificateDate": "20200210",
-                            "LimitApplicationCertificateValidStartDate": "20200210"
+                "ResultList": [
+                    {
+                        "ProcessExecutionTime": "20240401000000",
+                        "QualificationConfirmationLoginId": "W0000002",
+                        "QualificationConfirmationDate": "20240401",
+                        "QualificationValidity": "1",
+                        "ResultOfQualificationConfirmation": {
+                            "InsuredCardClassification": "01",
+                            "InsurerNumber": "12345678",
+                            "InsuredCardSymbol": "被保険者証記号０１",
+                            "InsuredIdentificationNumber": "被保険者証番号０１",
+                            "InsuredBranchNumber": "01",
+                            "PersonalFamilyClassification": "1",
+                            "InsuredName": "被保険者 氏名",
+                            "Name": "被保険者 氏名",
+                            "NameKana": "ヒホケンシャ シメイ",
+                            "Sex1": "1",
+                            "Birthdate": "19861001",
+                            "Address": "東京都○□区○○１－２－３",
+                            "PostNumber": "123-0101",
+                            "QualificationDate": "20200210",
+                            "InsuredCertificateIssuanceDate": "20200210",
+                            "InsuredCardValidDate": "20200210",
+                            "InsurerName": "○□△保険組合",
+                            "LimitApplicationCertificateRelatedConsTime": "20240401",
+                            "LimitApplicationCertificateRelatedInfo": {
+                                "LimitApplicationCertificateClassification": "01",
+                                "LimitApplicationCertificateClassificationFlag": "A01",
+                                "LimitApplicationCertificateDate": "20200210",
+                                "LimitApplicationCertificateValidStartDate": "20200210"
+                            },
+                            "SpecificDiseasesCertificateList": [
+                                {
+                                    "SpecificDiseasesDiseaseCategory": "1",
+                                    "SpecificDiseasesCertificateDate": "20231025",
+                                    "SpecificDiseasesValidStartDate": "20231025",
+                                    "SpecificDiseasesSelfPay": "10000"
+                                }
+                            ]
                         },
-                        "SpecificDiseasesCertificateList": {
-                            "SpecificDiseasesCertificateInfo": {
-                                "SpecificDiseasesDiseaseCategory": "1",
-                                "SpecificDiseasesCertificateDate": "20231025",
-                                "SpecificDiseasesValidStartDate": "20231025",
-                                "SpecificDiseasesSelfPay": "10000"
-                            }
-                        }
-                    },
-                    "PublicExpenseFlg": "0"
-                }
+                        "PublicExpenseFlg": "0"
+                    }
+                ]
             }
         }
     }
