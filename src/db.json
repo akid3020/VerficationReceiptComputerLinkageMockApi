@@ -126,14 +126,16 @@
                                 "LimitApplicationCertificateDate": "20200210",
                                 "LimitApplicationCertificateValidStartDate": "20200210"
                             },
-                            "SpecificDiseasesCertificateList": [
-                                {
-                                    "SpecificDiseasesDiseaseCategory": "1",
-                                    "SpecificDiseasesCertificateDate": "20231025",
-                                    "SpecificDiseasesValidStartDate": "20231025",
-                                    "SpecificDiseasesSelfPay": "10000"
-                                }
-                            ]
+                            "SpecificDiseasesCertificateList": {
+                                "SpecificDiseasesCertificateInfo": [
+                                    {
+                                        "SpecificDiseasesDiseaseCategory": "1",
+                                        "SpecificDiseasesCertificateDate": "20231025",
+                                        "SpecificDiseasesValidStartDate": "20231025",
+                                        "SpecificDiseasesSelfPay": "10000"
+                                    }
+                                ]
+                            }
                         },
                         "PublicExpenseFlg": "0"
                     }
