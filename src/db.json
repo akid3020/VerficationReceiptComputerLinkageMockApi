@@ -12,7 +12,7 @@
             "AuthenticationSession": "zxcvbnm098!"
         }
     },
-    "MSA50051_authMFA": {
+    "MSA50050_authMFA": {
         "MessageHeader": {
             "ProcessExecutionTime": "20240401000000",
             "MedicalInstitutionCode": "1211234567",
