@@ -70,6 +70,8 @@
                 "ReferenceNumber": "照会番号:全半角混合最大 50 文字"
             },
             "ProcessingResultStatus": "1",
+            "ProcessingResultCode": "123456789",
+            "ProcessingResultMessage": "",
             "InquiryResultInfo": {
                 "HistoryDataCount": "10000"
             }
@@ -94,6 +96,8 @@
                 "PageCount": "1000"
             },
             "ProcessingResultStatus": "1",
+            "ProcessingResultCode": "123456789",
+            "ProcessingResultMessage": "",
             "InquiryResultInfo": {
                 "ResultList": [
                     {
