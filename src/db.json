@@ -22,9 +22,9 @@
             "SegmentOfResult": "1"
         },
         "MessageBody": {
-            "IdToken": "123abc?",
-            "AccessToken": "456def?",
-            "RefreshToken": "789ghi?",
+            "IdToken": "123abcXXXXXXX",
+            "AccessToken": "456defXXXXXXX",
+            "RefreshToken": "789ghiXXXXXXX",
             "ExpiresIn": 1711900800
         }
     },
@@ -38,8 +38,8 @@
             "SegmentOfResult": "1"
         },
         "MessageBody": {
-            "IdToken": "123abc?",
-            "AccessToken": "456def?",
+            "IdToken": "123abcXXXXXXX",
+            "AccessToken": "456defXXXXXXX",
             "ExpiresIn": 1711900800
         }
     },
